@@ -11,8 +11,14 @@ body {
     justify-content: center;
     align-items: center;
 }
-.container>.list {
+.container>.img_blocks {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+}
+.img_blocks img {
+    margin: 5px;
+    height: 120px;
+    width: auto;
+}
